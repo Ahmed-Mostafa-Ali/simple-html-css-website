@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#Home{
+    background-image:linear-gradient(30deg,rgba(51, 51, 51, 0.6),rgba(51, 51, 51, 0.7)) , url(./img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding:60px 0 0 0 ;
+}
+.navbar {
+    z-index: 999 !important;
+}
+.container span {
+    color: #f0f0f0;
+}
+.change-bg{
+    background: white !important;
+}
+.change-bg span {
+    color: rgb(216, 26, 26) !important;
+}
+.change-bg a{
+    color: rgb(24, 24, 23) !important;
+}
+.nav-link {
+    color: #f0f0f0 !important;
+    font-size: 18px;
+    padding: 10px;
+}
+.navbar{
+    width: 100%;
+}
+.main-container{
+    padding: 80px;
+}
+.main-container span::before{
+    content: "";
+    color: #f0f0f0;
+    padding: 20px;
+    font-size: 70px;
+    font-weight: 500;
+    text-align: center;
+    animation: typing 1s infinite alternate;
+    transition: content .2s;
+}
+.main-icon{
+    position: relative;
+    font-size: 25px;
+    color: #f0f0f0;
+    padding: 10px;
+    cursor: pointer;
+}
+.main-container h1{
+    color: #f0f0f0;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 70px;
+}
+@keyframes typing{
+
+    0%{
+      content: "I a|";
+    }
+    10%{
+        content: "I am|";
+    }
+    25%{
+        content: "I am D|";
+    }
+    35%{
+        content: "I am Da|";
+    }
+    50%{
+        content: "I am Dani|";
+    }
+    60%{
+        content: "I am Dania|";
+    }
+    70%{
+        content: "I am Danial|";
+    }
+    100%{
+        content: "I am Daniel.";
+    }
+}
+/**/
+.sub-info p{
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.btn-btn{
+    cursor: pointer;
+}
+.main-btn{
+    padding: 10px 30px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #1c1c1c;
+    color: #f0f0f0;
+    margin-left: 20px;
+}
+.main-btn:hover{
+    background: #999;
+    color: #1c1c1c;
+}
+.main-btn1{
+    padding: 10px 30px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.main-btn1:hover{
+    background: #1c1c1c;
+    color: #999;
+}
+/**/
+.info-ser{
+    text-align: center;
+}
+
+.item-sub{
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 70px;
+    display: inline-block;
+    height: 70px;
+    line-height:70px;
+    margin-top: 20px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    text-align: center;
+}
+.item-sub:hover{
+    background: #1c1c1c;
+    color: #999;
+}
+/**/
+.filter-container{
+    display: none;
+}
+.filter-container.active{
+    display:flex;
+    flex-wrap: wrap;
+}
+.filtr-item{
+    width: 33.33%;
+    padding: 20px;
+}
+img{
+    width: 100%;
+}
+/**/
+#client{
+    z-index: -1;
+}
+.slide{
+    padding-bottom: 50px;
+}
+.im-bl{
+    width: 100px;
+    height: 100px;
+    border-radius: 999px;
+    overflow: hidden;
+    margin: auto;
+}
+.carousel-item{
+    width: 100%;
+}
+.carousel-indicators button{
+ background: rgb(245, 38, 210) !important;
+height: 0 !important;
+border: 3px solid black;
+width: 15px !important;
+border-radius: 50% !important;
+}
+/**/
+#blog{
+    background: #999;
+}
+#blog .carousel-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+#blog .carousel-item .card{
+    width: 30%;
+    padding: 20px;
+}
+
+footer{
+    width: 100% !important;
+}
